@@ -1,5 +1,5 @@
 
-![Screenshot](./media/2022-04-12-152306_2054x1205_scrot.png)
+![Screenshot](./media/2022-04-12-153000_2054x1205_scrot.png)
 
 # About
 
