@@ -7,10 +7,10 @@ This plugin provides language support for the Test Specification Language (TSL)
 as specified by the [tsl generator][tsl generator] docs. The language was
 originally described by the [Ostrand and Balcers 1988 CACM paper][o and b].
 
-- Files ending with the extension `*.tslspec` will automatically detected and
-  set to a vim file type of `tslspec`.
-- Files ending with the extension `*.tslspec.tsl` will automatically detected
-  and set to a vim file type of `tsl`.
+- Files ending with the extension `*.tslspec` will automatically be detected
+  and set to a vim file type of `tslspec`.
+- Files ending with the extension `*.tslspec.tsl` will automatically be
+  detected and set to a vim file type of `tsl`.
 
 # Installation
 
