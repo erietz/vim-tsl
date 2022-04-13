@@ -1,7 +1,6 @@
-
-syn match tslComment "#.*$"
 syn match tslCategory ".*\:"
 syn match tslChoice ".*\."
+syn match tslComment "#.*$"
 
 syn keyword tslExpression contained if else
 syn keyword tslOperator contained and or
