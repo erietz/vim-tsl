@@ -3,9 +3,10 @@ syn match tslChoice ".*\."
 syn match tslComment "#.*$"
 
 syn keyword tslExpression contained if else
-syn keyword tslOperator contained and or
 syn keyword tslProperty contained property
 syn match tslOperator contained /!/
+syn match tslOperator contained /&&/
+syn match tslOperator contained /||/
 syn match tslParen contained /(/
 syn match tslParen contained /)/
 syn region tslConstraint oneline matchgroup=constStart start=/\[/ matchgroup=constEnd end=/\]/ contains=tslExpression,tslOperator,tslParen,tslProperty
